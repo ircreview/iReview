@@ -33,8 +33,8 @@ if(empty($_GET['action']) || !in_array(@$_GET['action'], $actions)) {
 $Core['MySQL'] = new MySQL($settings);
 
 echo 'To include: <br />' . dirname(__FILE__) . '/templates/' . $actions[$_GET['action']];
-// @(include(dirname(__FILE__) . "/templates/header.php")) or die("Couldn't find templates/header.php");
+@(include(dirname(__FILE__) . "/templates/header.php")) or die("Couldn't find templates/header.php");
 // @(include(dirname(__FILE__) . "/templates/" . $actions[$_GET['action']])) or die("Couldn't find templates/" . $actions[$_GET['action']]);
-// @(include(dirname(__FILE__) . "/templates/footer.php")) or die("Couldn't find templates/footer.php");
+@(include(dirname(__FILE__) . "/templates/footer.php")) or die("Couldn't find templates/footer.php");
 
 ?>
