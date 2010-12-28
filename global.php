@@ -7,9 +7,8 @@
  *
  *   @version      0.1.0.0
  *   @copyright    Copyright © 2011 IRCReview
- *   @description  Index file that deals with the
- *                 query string and includes the 
- *                 required files for the end-user. 
+ *   @description  Global file that is responsible for
+ *                 initialization of the system.
  *   @url          http://ircreview.com/
  *
  */
