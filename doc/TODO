@@ -6,14 +6,15 @@ Key:
 
 
 [ ] - Installation script
-[ ] - Core
-	[ ] - MySQL support
+[~] - Core
+	[X] - Query string management
+	[X] - MySQL support
 	[ ] - PostgreSQL support
 	[ ] - leet API
 [ ] - Modularization
 [ ] - User system
 [ ] - Blogging system
-[ ] - Theme system
-[ ] - Forum system
+[~] - Theme system - header.php and footer.php can theme the whole page.
+[!] - Forum system
 [ ] - Administration System
 
