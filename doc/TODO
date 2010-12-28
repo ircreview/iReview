@@ -9,9 +9,10 @@ Key:
 [ ] - Core
 	[ ] - MySQL support
 	[ ] - PostgreSQL support
+	[ ] - leet API
 [ ] - Modularization
 [ ] - User system
 [ ] - Blogging system
 [ ] - Theme system
 [ ] - Fourm system
-
+[ ] - Administration System
