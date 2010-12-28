@@ -9,7 +9,7 @@ Key:
 [~] - Core
 	[X] - Query string management
 	[X] - MySQL support
-	[ ] - PostgreSQL support
+	[!] - PostgreSQL support
 	[ ] - leet API
 [ ] - Modularization
 [ ] - User system
