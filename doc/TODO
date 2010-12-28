@@ -1,0 +1,16 @@
+Key:
+	[~] - In progress
+	[X] - Done
+	[O] - Idea dropped; may be brought back up later
+	[!] - Going to be in NEXT stable release
+
+
+[ ] - Installation script
+[ ] - Core
+	[ ] - MySQL support
+	[ ] - PostgreSQL support
+[ ] - Modularization
+[ ] - User system
+[ ] - Blogging system
+[ ] - Theme system
+
