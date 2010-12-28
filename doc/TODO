@@ -7,14 +7,14 @@ Key:
 
 [ ] - Installation script
 [~] - Core
-	[~] - Query string management
-	[ ] - MySQL support
+	[X] - Query string management
+	[~] - MySQL support
 	[ ] - PostgreSQL support
 	[ ] - leet API
-[~] - Modularization
+[ ] - Modularization
 [ ] - User system
 [ ] - Blogging system
-[ ] - Theme system
-[ ] - Forum system
+[!] - Theme system
+[!] - Forum system
 [ ] - Administration System
 
