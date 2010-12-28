@@ -6,11 +6,12 @@ Key:
 
 
 [ ] - Installation script
-[ ] - Core
+[~] - Core
+	[~] - Query string management
 	[ ] - MySQL support
 	[ ] - PostgreSQL support
 	[ ] - leet API
-[ ] - Modularization
+[~] - Modularization
 [ ] - User system
 [ ] - Blogging system
 [ ] - Theme system
