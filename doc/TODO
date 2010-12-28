@@ -8,13 +8,13 @@ Key:
 [ ] - Installation script
 [~] - Core
 	[X] - Query string management
-	[~] - MySQL support
+	[X] - MySQL support
 	[ ] - PostgreSQL support
 	[ ] - leet API
 [ ] - Modularization
 [ ] - User system
 [ ] - Blogging system
-[!] - Theme system
+[~] - Theme system - header.php and footer.php can theme the whole page.
 [!] - Forum system
 [ ] - Administration System
 

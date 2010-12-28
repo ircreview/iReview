@@ -14,7 +14,7 @@
  *
  */
  
-// @(include(dirname(__FILE__) . "/config.php")) or die("Couldn't find config.php");
+@(include(dirname(__FILE__) . "/config.php")) or die("Couldn't find config.php");
  
 // The global.php file is responsible for building the ACTION array that manages which
 // pages are displayed depending on the URL query string.
@@ -29,6 +29,8 @@ if(empty($actions)) {
 if(empty($_GET['action']) || !in_array(@$_GET['action'], $actions)) {
 	$_GET['action'] = 'home';
 }
+
+$Core['MySQL'] = new MySQL($settings);
 
 echo 'To include: <br />' . dirname(__FILE__) . '/templates/' . $actions[$_GET['action']];
 // @(include(dirname(__FILE__) . "/templates/header.php")) or die("Couldn't find templates/header.php");
